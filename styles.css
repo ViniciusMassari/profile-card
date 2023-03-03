@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1AA1AD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    position: relative;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.background-image{
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+}
+
+.background-1{
+    left: -300px;
+    top: -600px;
+}
+
+.background-2{
+    right: -200px;
+    bottom: -750px;
+}
+
+.card-bg{
+    max-width: 100%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 20px 20px 0 0;
+}
+.profile-card{
+    display: flex;
+    position: relative;
+    z-index: 999;
+    flex-direction: column;
+    align-items: center;
+   min-height: 25rem;
+    width: 25rem;
+    background-color: #fff;
+    bottom: 0;
+    min-width: 25rem;
+    border-radius: 20px;
+}
+
+.profile-image{
+    border-radius: 50px;
+    position: absolute;
+    top: 115px;
+    border: 5px solid #fff;
+}
+
+.profile-info img{
+ border-radius: 50px;
+position: absolute;
+  left: 150px;
+  top: 110px;
+  border: 5px solid #fff;
+}
+
+.gray{
+    color: #808080;
+    font-weight: initial;
+}
+
+p{
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+p:hover{
+    color: #1AA1AD;
+}
+
+
+.person-info{
+    
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.person-info span{
+    text-align: center;
+}
+
+.age{
+    margin-left: 10px;
+  font-weight: initial;
+}
+
+.city{
+    margin-top: 10px;
+    font-size: 0.975rem;
+    text-align: center;
+    font-weight: initial;
+}
+
+.status{
+    display: flex;
+    border-top: 1px solid rgb(163, 154, 154, 0.3);
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.number{
+    font-size: 0.775rem;
+}
